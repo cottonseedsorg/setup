@@ -8,6 +8,8 @@ if(mysqli_connect_errno()) {
 $res=mysqli_query($con,"SELECT * FROM `test`");
 while($row=mysqli_fetch_assoc($res)){
     print_r($row);
+    echo "im in loop";
 }
+echo "out";
 
 ?>
