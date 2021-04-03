@@ -1,3 +1,6 @@
 [submodule "beta"]
 	path = beta
 	url = https://github.com/cottonseedsorg/cottonseeds.git
+[submodule "sql"]
+	path = sql
+	url = https://github.com/durgesh-sahani/google-cloud-storage-php-mysql.git
