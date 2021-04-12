@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+ErrorDocument 400 https://cottonseeds.org/error
+ErrorDocument 401 https://cottonseeds.org/error
+ErrorDocument 403 https://cottonseeds.org/error
+ErrorDocument 404 https://cottonseeds.org/error
+ErrorDocument 500 https://cottonseeds.org/error
