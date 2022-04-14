@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cottonseeds.org
+Token: e67d0b20a3bcdc60ca4834555141831e08468d93234a718090b052e0d61fc824
